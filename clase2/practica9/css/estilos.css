@@ -1,0 +1,32 @@
+/*2 selectores de etiqueta*/
+
+body {background-color: #AFEEEE;}
+
+p {
+	color: #191970;
+	background-color: white;
+	}
+
+/*2 selectores de identificador*/
+
+#titulo {
+	background-color: #FFB6C1;
+	color: white;
+	}
+
+#menu {
+	background-color: #FFDAB9;
+	color: purple;
+}
+
+/*2 selectores de clase*/
+
+.items {
+	color: #191970;
+	background-color: white;
+}
+
+.titulazos {
+	background-color: pink;
+	color: white;
+}

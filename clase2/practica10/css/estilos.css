@@ -1,0 +1,68 @@
+/* Fondo general */
+body {
+    background-color: #fdf0ff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #a64ac9;
+}
+
+/* Subtítulos */
+h2 {
+    color: #7b2cbf;
+}
+
+/* Menú de navegación */
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin: 10px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: white;
+    background-color: #c77dff;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: #9d4edd;
+}
+
+/* Párrafos */
+p {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Imágenes */
+img {
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+/* Líneas */
+hr {
+    border: 1px solid #c77dff;
+    width: 80%;
+}
+
+/* me agrego cosas que no conocia y que los voy a tener en cuenta. Me centro el texto y las imagenes, que para el texto no me parece una buena idea ya que hace que no se vean bien.
+ quiso agregar colores pero por alguna razon esto no visualsan en las paginas en chrome. Pienso que es por los atributos de identificacion y de clase que los html de las paginas ya tienen para el archivo de css que ya habia creado.
+ mehoro el menu, ahora si parece un menu con los cuadrados que cambian de color si pasa el mouse cerca o cuando haces click.
+ destaco propiedades que me mostro la ia para utilizar en proximos trabahos */
