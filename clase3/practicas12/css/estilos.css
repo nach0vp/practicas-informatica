@@ -1,0 +1,121 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tipografía general */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fdf6ff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(90deg, #ff9de2, #b084ff);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 100px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* NAV */
+nav {
+    background-color: #6a4cff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* MAIN */
+main {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* CONTENIDO PRINCIPAL */
+section {
+    flex: 3;
+}
+
+article {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* ASIDE (barra lateral) */
+aside {
+    flex: 1;
+    background-color: #f3e8ff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* IMÁGENES */
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* TÍTULOS */
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #6a4cff;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #b084ff;
+}
+
+h4 {
+    color: #ff9de2;
+}
+
+/* PÁRRAFOS */
+p {
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #6a4cff;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* ADDRESS */
+address {
+    font-style: normal;
+    margin-top: 10px;
+}
+
+
+/*El estilo que me puso el chat gpt, esta muy bueno, pero habria que administrar mehor las section y el aside, xq las puso ambos como elementos en linea y estan todos uno al lado del otro. Esta bien, pero no siempre deberia tener asi, ya que las columnas de 4 quedan muy finitas, por ahi los aside o section que tengan imagenes podrian estar en linea, pero los que tiene texto mehor en bloque que quede uno debaho del otro, que queden solo 2 columnas*/
