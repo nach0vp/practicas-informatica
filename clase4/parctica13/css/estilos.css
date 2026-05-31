@@ -1,0 +1,82 @@
+/*Tipografia en fonts y la imagen que uso de fondo*/
+body {font-family: "Poetsen One",  sans-serif;
+		background-image: url("../img/fondo.jpg");}
+
+/*id del div que contiene todo el contenido de las paginas, agregue un padding, margin y background-color que la ia me dio para mehorar la estetica*/
+#contenedor {width: 100%;
+			max-width: 960px;
+			padding: 2em;
+			margin: 3em auto;
+			background-color: #E0FFFF;}
+
+body ::selection {background-color: #B0C4DE;
+				color: #483D8B;}
+
+header {background-color: #FF69B4;
+		color: 	white;
+		display: flex;
+		padding: 1em;
+		margin: 1em;}
+
+/*aca me ayudo la ia para poder ubicar mehor el logo en el header*/
+header img {width: 10em;
+			position: relative;
+			left: 425px;}
+
+/*estilos para el menu*/
+nav {text-align: center;
+	background-color: #FFD700;
+	padding: 1em 2em;
+	height: 2em;}
+
+nav ul {margin: 0;
+		padding: 0;
+		list-style-type: none;}
+
+nav li {display: inline-block;}
+
+nav a {padding: 1em 2em;
+		text-decoration: none;}
+
+nav a:link {background-color: #FFD700;
+			color: #FF4500;}
+
+nav a:visited {background-color: #FFD700;
+				color: 	#FF4500;}
+
+nav a:hover {background-color: #FFFACD;
+			color: 	#FF6347;}
+
+nav a:active {background-color:	#FFFF00;
+				color: 	#FF7F50;}
+
+main {background-color: #FFB6C1;
+	  color: #C71585;
+		padding: 1em;
+		margin: 1em;}
+
+section {background: #FFB6C1;}
+
+article {background-color: #FFF8DC;
+		color: #4B0082;
+		padding: 1em;
+		margin: 0.5em;}
+
+.columnas {display: flex;}
+
+/*la ia me recomendo utilizar float para la ubicaicon de ciertas imagenes*/
+
+.imgR {float: right;
+		margin: 1em;}
+
+.imgL {float: left;
+		margin: 1em;}
+
+em {background-color: #E6E6FA;
+	color: #9370DB;}
+
+footer {background-color: white;
+		color: gray;
+	 	padding: 1em;
+		margin-top: 1em;}
+
